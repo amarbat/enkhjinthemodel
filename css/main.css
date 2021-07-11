@@ -17,6 +17,7 @@ html {
   line-height: 1.4;
   font-family: 'Josefin Sans', sans-serif;
   box-sizing: border-box;
+  width: 100%;
 }
 
 /*
@@ -267,7 +268,8 @@ textarea {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  font-size: 2rem
+  font-size: 2rem;
+  flex-wrap: wrap;
 }
 
 .nav-menu {
@@ -360,4 +362,16 @@ footer {
 
 .picture-gallery-item img {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-content {
+    flex-direction: column;
+  }
+
+  .about-me-img {
+    order: -1;
+    max-width:100%;
+    width: 100%;
+  }
 }

@@ -296,11 +296,12 @@ textarea {
 }
 
 .about-me-img {
-  min-width: 50%;
+  min-width: 45%;
+  width: 45%;
 }
 
 .about-me-img img {
-  max-width: 72%;
+  max-width: 100%;
 }
 
 footer {

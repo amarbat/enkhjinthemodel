@@ -409,7 +409,7 @@ Facebook).
 
 ```html
 <meta property="fb:app_id" content="123456789">
-<meta property="og:url" content="https://www.example.com/path/to/page.html">
+<meta property="og:url" content="">
 <meta property="og:type" content="website">
 <meta property="og:title" content="">
 <meta property="og:image" content="https://www.example.com/path/to/image.jpg">

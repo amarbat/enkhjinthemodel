@@ -13,8 +13,9 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 14px;
   line-height: 1.4;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /*
@@ -261,3 +262,50 @@ textarea {
   }
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 2rem
+}
+
+.nav-menu {
+  display: flex;
+  min-width: 300px;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.content {
+  background-color: #EFEFEF;
+}
+
+.section-content {
+  display: flex;
+  font-size: 1.4rem;
+  padding: 50px;
+}
+
+.section-text {
+  padding: 10px;
+}
+
+.section-text-header {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.about-me-img {
+  min-width: 50%;
+}
+
+.about-me-img img {
+  max-width: 72%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 1.4rem;
+}

@@ -348,16 +348,29 @@ footer {
   box-shadow: 0 0 20px 0px #BFBEBE;
 }
 
+.video-gallery,
 .picture-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.video-gallery-item {
+  width:100%;
+  margin:10px;
+}
+
 .picture-gallery-item {
   width: 30%;
   max-width: 30%;
   margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .picture-gallery-item {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .picture-gallery-item img {
